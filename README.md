@@ -15,5 +15,5 @@
 ## como usar 
 use o comando:
 ```
-cat
+gato
 ```
