@@ -36,3 +36,4 @@ def del_img(arq_name):
 
 del_img(display(baixar_img(get_img())))
 
+print(__name__)
