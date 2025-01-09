@@ -23,7 +23,7 @@ def generete_unique_arq_name():
 
 def baixar_img(url_img):
     arq_name = generete_unique_arq_name()
-    cmd = subprocess.run(f"wget -O {arq_name} {get_img()}",shell=True, capture_output=True)
+    cmd = subprocess.run(f"wget -O {arq_name} {url_img}",shell=True, capture_output=True)
     return arq_name
 
 def display(arq_name):
